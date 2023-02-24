@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: azure;
+}
+
+header {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 100%;
+    padding-top: 2rem;
+}
+
+.separator {
+    display: flex;
+}
+
+#time {
+    width: 8%;
+    height: 50px; 
+    resize: none; 
+    text-align: center; 
+    font-size: 20px; 
+    border: 2px dashed;
+}
+
+#user-input {
+    width: 85%; 
+    height: 50px; 
+    resize: none;
+    border-width: 2px;
+}
+
+#submit-button {
+    width: 7%; 
+    height: 54px; 
+    resize: none;
+    border-width: 2px;
+}

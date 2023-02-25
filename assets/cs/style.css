@@ -62,3 +62,44 @@ header {
     background: linear-gradient(rgb(195, 125, 117), white);
    
 }
+
+@media only screen and (max-width: 600px) {
+    #time {
+        width: 15%;
+        height: 50px; 
+        resize: none; 
+        text-align: center; 
+        font-size: 20px; 
+        border: 2px dashed;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background: linear-gradient(rgb(221, 162, 155), white);
+    }
+
+        #user-input1, #user-input2,
+        #user-input3, #user-input4,
+        #user-input5, #user-input6,
+        #user-input7, #user-input8,
+        #user-input9, #user-input10 {
+        width: 70%; 
+        height: 50px; 
+        resize: none;
+        border-width: 2px;
+        background-color: white;
+    }
+
+        #submit-button1, #submit-button2,
+        #submit-button3, #submit-button4,
+        #submit-button5, #submit-button6,
+        #submit-button7, #submit-button8,
+        #submit-button9, #submit-button10 {
+            width: 15%; 
+            height: 54px; 
+            resize: none;
+            border-width: 2px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background: linear-gradient(rgb(195, 125, 117), white);
+    
+    }
+}

@@ -8,7 +8,10 @@
 
 ## Screenshots
 Sample Desktop View
-<img src="./assets/images/sample-logger-view1.png" />
+<img src="./assets/images/sample-event-desktopview.png" />
+
+Sample Phone View
+<img src="./assets/images/sample-event-phoneview.png" />
 
 ## Credits
 Junnel R. Padilla, UC Berkeley Bootcamp Modules, Stackoverflow, Google

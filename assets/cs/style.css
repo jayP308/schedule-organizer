@@ -48,7 +48,11 @@ header {
     background-color: white;
 }
 
-#submit-button {
+#submit-button1, #submit-button2,
+#submit-button3, #submit-button4,
+#submit-button5, #submit-button6,
+#submit-button7, #submit-button8,
+#submit-button9, #submit-button10 {
     width: 7%; 
     height: 54px; 
     resize: none;

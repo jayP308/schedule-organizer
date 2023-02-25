@@ -9,7 +9,6 @@ body {
 }
 
 header {
-    max-height: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -27,7 +26,7 @@ header {
 
 #time {
     width: 8%;
-    height: 50px; 
+    height: 75px; 
     resize: none; 
     text-align: center; 
     font-size: 20px; 
@@ -43,10 +42,11 @@ header {
 #user-input7, #user-input8,
 #user-input9, #user-input10 {
     width: 85%; 
-    height: 50px; 
+    height: 75px; 
     resize: none;
     border-width: 2px;
     background-color: white;
+    overflow: scroll;
 }
 
 #submit-button1, #submit-button2,
@@ -55,7 +55,7 @@ header {
 #submit-button7, #submit-button8,
 #submit-button9, #submit-button10 {
     width: 7%; 
-    height: 50px; 
+    height: 75px; 
     resize: none;
     border-width: 2px;
     border-top-right-radius: 10px;

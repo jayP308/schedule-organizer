@@ -1,9 +1,14 @@
+let submitButton1 = document.getElementById("submit-button1"); 
+let searchBar1 = document.getElementById("user-input1");
+let userValue = document.getElementById("user-event");
+
 const displayMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const displayDays = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const displayHours = ["12","1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
 
 const d = new Date();
 const j = new Date();
+let savedEvents = JSON.parse(localStorage.getItem("data")) || [];
 dateDisplay();
 timeBlocks();
 
@@ -12,6 +17,24 @@ function dateDisplay () {
     let month = displayMonths[d.getMonth()];
     let day = displayDays[d.getDay()];
     document.getElementById("date-display").innerHTML = month + " " + d.getDate() + "," + " " + d.getFullYear() + " " + "-" + " " + day; 
+}
+
+submitButton1.addEventListener("click", function(event) {
+    event.preventDefault();
+    let userInput = searchBar1.value;
+    for(let i=0; i < userInput.length; i++) {
+        var li = document.createElement("p");
+        if(savedEvents.indexOf(userInput) == -1){
+            savedEvents.push(userInput);
+            li.textContent = userInput;
+            localStorage.setItem("data", JSON.stringify(savedEvents));
+        }
+    }
+    window.location.reload();
+})
+
+for(let i=0; i < savedEvents.length; i++) {
+        searchBar1.textContent = savedEvents[i];
 }
 
 function timeBlocks () {
@@ -246,6 +269,7 @@ function timeBlocks () {
                 document.getElementById("submit-button9").disabled = true;
             }
         } else if (currentHour1 >= 16){
+            localStorage.removeItem("data");
             document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
             document.getElementById("user-input1").value = "Time Has Passed!";
             document.getElementById("user-input1").disabled= true;

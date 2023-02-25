@@ -1,6 +1,5 @@
 let submitButton1 = document.getElementById("submit-button1"); 
 let searchBar1 = document.getElementById("user-input1");
-let userValue = document.getElementById("user-event");
 
 const displayMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const displayDays = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];

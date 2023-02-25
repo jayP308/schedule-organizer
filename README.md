@@ -8,7 +8,7 @@
 
 ## Screenshots
 Sample Desktop View
-<img src="./assets/images/sample-event-desktopview.png" />
+<img src="./assets/images/sample-desktop-view.jpeg" />
 
 Sample Phone View
 <img src="./assets/images/sample-event-phoneview.png" />

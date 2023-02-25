@@ -8,10 +8,10 @@
 
 ## Screenshots
 Sample Desktop View
-<img src="./assets/images/sample-logger-view.png" />
+<img src="./assets/images/sample-logger-view1.png" />
 
 ## Credits
-Junnel R. Padilla, UC Berkeley Bootcamp Modules
+Junnel R. Padilla, UC Berkeley Bootcamp Modules, Stackoverflow, Google
 
 ## License
 

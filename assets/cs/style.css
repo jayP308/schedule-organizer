@@ -34,7 +34,11 @@ header {
     background-color: lightpink;
 }
 
-#user-input {
+#user-input1, #user-input2,
+#user-input3, #user-input4,
+#user-input5, #user-input6,
+#user-input7, #user-input8,
+#user-input9, #user-input10 {
     width: 85%; 
     height: 50px; 
     resize: none;

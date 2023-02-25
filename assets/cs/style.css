@@ -65,7 +65,7 @@ header {
 
 @media only screen and (max-width: 600px) {
     #time {
-        width: 15%;
+        width: 20%;
         height: 50px; 
         resize: none; 
         text-align: center; 
@@ -81,7 +81,7 @@ header {
         #user-input5, #user-input6,
         #user-input7, #user-input8,
         #user-input9, #user-input10 {
-        width: 70%; 
+        width: 65%; 
         height: 50px; 
         resize: none;
         border-width: 2px;

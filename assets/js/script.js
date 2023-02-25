@@ -20,163 +20,163 @@ function timeBlocks () {
     let currentHour1 = j.getHours();
     
         if(currentHour1 === 6 ) {
-            document.getElementById("user-input1").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input1").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input1").placeholder= "Current Time";
         } else if(currentHour1 === 7) {
-            document.getElementById("user-input2").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input2").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input2").placeholder= "Current Time";
             if(currentHour1 != 6) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
             }
         } else if(currentHour1 === 8) {
-            document.getElementById("user-input3").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input3").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input3").placeholder= "Current Time";
             if(currentHour1 != 7) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
             }
         } else if(currentHour1 === 9) {
-            document.getElementById("user-input4").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input4").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input4").placeholder= "Current Time";
             if(currentHour1 != 8) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
             }
         } else if(currentHour1 === 10) {
-            document.getElementById("user-input5").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input5").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input5").placeholder= "Current Time";
             if(currentHour1 != 9) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
             }
         } else if(currentHour1 === 11) {
-            document.getElementById("user-input6").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input6").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input6").placeholder= "Current Time";
             if(currentHour1 != 10) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
-                document.getElementById("user-input5").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input5").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input5").placeholder= "Time has passed!";
             }
         } else if(currentHour1 === 12) {
-            document.getElementById("user-input7").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input7").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input7").placeholder= "Current Time";
             if(currentHour1 != 11) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
-                document.getElementById("user-input5").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input5").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input5").placeholder= "Time has passed!";
-                document.getElementById("user-input6").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input6").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input6").placeholder= "Time has passed";
             }
         } else if(currentHour1 === 13) {
-            document.getElementById("user-input8").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input8").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input8").placeholder= "Current Time";
             if(currentHour1 != 12) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
-                document.getElementById("user-input5").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input5").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input5").placeholder= "Time has passed!";
-                document.getElementById("user-input6").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input6").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input6").placeholder= "Time has passed";
-                document.getElementById("user-input7").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input7").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input7").placeholder= "Time has passed";
             }
         } else if(currentHour1 === 14) {
-            document.getElementById("user-input9").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input9").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input9").placeholder= "Current Time";
             if(currentHour1 != 13) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
-                document.getElementById("user-input5").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input5").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input5").placeholder= "Time has passed!";
-                document.getElementById("user-input6").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input6").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input6").placeholder= "Time has passed";
-                document.getElementById("user-input7").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input7").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input7").placeholder= "Time has passed";
-                document.getElementById("user-input8").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input8").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input8").placeholder= "Time has passed";
             }
         } else if(currentHour1 === 15) {
-            document.getElementById("user-input10").style.background = 'linear-gradient(rgb(117, 191, 216), rgb(109, 236, 109)';
+            document.getElementById("user-input10").style.background = 'linear-gradient(salmon, white)';
             document.getElementById("user-input10").placeholder= "Current Time";
             if(currentHour1 != 14) {
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
-                document.getElementById("user-input5").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input5").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input5").placeholder= "Time has passed!";
-                document.getElementById("user-input6").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input6").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input6").placeholder= "Time has passed";
-                document.getElementById("user-input7").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input7").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input7").placeholder= "Time has passed";
-                document.getElementById("user-input8").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input8").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input8").placeholder= "Time has passed";
-                document.getElementById("user-input9").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input9").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input9").placeholder= "Time has passed";
             }
         } else if (currentHour1 >= 16){
-                document.getElementById("user-input1").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input1").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input1").placeholder= "Time has passed!";
-                document.getElementById("user-input2").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input2").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input2").placeholder= "Time has passed!";
-                document.getElementById("user-input3").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input3").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input3").placeholder= "Time has passed!";
-                document.getElementById("user-input4").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input4").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input4").placeholder= "Time has passed";
-                document.getElementById("user-input5").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input5").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input5").placeholder= "Time has passed!";
-                document.getElementById("user-input6").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input6").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input6").placeholder= "Time has passed";
-                document.getElementById("user-input7").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input7").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input7").placeholder= "Time has passed";
-                document.getElementById("user-input8").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input8").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input8").placeholder= "Time has passed";
-                document.getElementById("user-input9").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input9").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input9").placeholder= "Time has passed";
-                document.getElementById("user-input10").style.background = "linear-gradient(rgb(95, 137, 151), rgb(33, 110, 33))";
+                document.getElementById("user-input10").style.background = "linear-gradient(rgb(152, 96, 90), rgb(198, 190, 190))";
                 document.getElementById("user-input10").placeholder= "Time has passed";
         } 
 }

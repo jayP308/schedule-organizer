@@ -39,6 +39,7 @@ header {
     height: 50px; 
     resize: none;
     border-width: 2px;
+    background-color: white;
 }
 
 #submit-button {

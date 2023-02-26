@@ -1,17 +1,20 @@
-# Schedule-Organizer
+# Schedule Organizer
 
 ## Usage
+Being organize is a part of our everyday life. This apps help everyday user especially those works a 40 hours a week job. This helps user organize daily acitivities, like zoom meetings, etc base on times. 
 
 ## Description
+This app includes a title, current dates that changes each day. Each event blocks represents every hours. it will pick up current hour and highlight the block to let user know that it is that time. It will also let user know if the time has passed and the block(s) and the corresponding buttons will be disabled and will not be able to edit.
 
 ## URL
+https://jayp308.github.io/schedule-organizer/
 
 ## Screenshots
-Sample Desktop View
-<img src="./assets/images/sample-desktop-view.jpeg" />
+Desktop View
+<img src="./assets/images/desktop-view-logger.png" />
 
 Sample Phone View
-<img src="./assets/images/sample-event-phoneview.png" />
+<img src="./assets/images/phone-view-logger.png" />
 
 ## Credits
 Junnel R. Padilla, UC Berkeley Bootcamp Modules, Stackoverflow, Google

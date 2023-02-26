@@ -46,6 +46,7 @@ function dateDisplay () {
     document.getElementById("date-display").innerHTML = month + " " + d.getDate() + "," + " " + d.getFullYear() + " " + "-" + " " + day; 
 }
 
+// Buttons to log user input to local storage
 submitButton1.addEventListener("click", function(event) {
     event.preventDefault();
     let userInput1 = searchBar1.value;
@@ -183,6 +184,7 @@ submitButton10.addEventListener("click", function(event) {
     window.location.reload();
 })
 
+// Allows to input multiple entries to each block 
 for(let i=0; i < savedEvents1.length; i++) {
         searchBar1.textContent = savedEvents1[i];
 }
@@ -224,7 +226,7 @@ for(let i=0; i < savedEvents10.length; i++) {
 }
 
 
-
+// Tell user if its current time or time has pass ones every hour hits
 function timeBlocks () {
     let currentHour1 = j.getHours();
         for(let i=0; i < currentHour1; i++){

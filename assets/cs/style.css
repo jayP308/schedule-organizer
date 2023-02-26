@@ -1,3 +1,4 @@
+/* Universal Selector */
 * {
     box-sizing: content-box;
     margin: 0;
@@ -24,6 +25,7 @@ header {
     display: flex;
 }
 
+/* displays time on the left of the page */
 #time {
     width: 8%;
     height: 75px; 
@@ -36,6 +38,7 @@ header {
     background: linear-gradient(rgb(221, 162, 155), white);
 }
 
+/* Individual time blocks for the user to input event */
 #user-input1, #user-input2,
 #user-input3, #user-input4,
 #user-input5, #user-input6,
@@ -49,6 +52,7 @@ header {
     overflow: scroll;
 }
 
+/* Individual Buttons to submit user inputs */
 #submit-button1, #submit-button2,
 #submit-button3, #submit-button4,
 #submit-button5, #submit-button6,
@@ -64,6 +68,7 @@ header {
    
 }
 
+/* Small phones compatibility */
 @media only screen and (max-width: 600px) {
     #time {
         width: 20%;
